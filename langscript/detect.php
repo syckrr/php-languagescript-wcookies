@@ -3,7 +3,7 @@ $dil= $_GET["tr"];
 if($dil=="TR"){
 	setcookie("tr", "1", time() + (60*60*24*30));
 }
-else //English here!
+else //English here!!
 {
 	setcookie("tr", "0", time() + (60*60*24*30));
 }
